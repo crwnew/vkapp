@@ -3,34 +3,34 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Name Generator Script Demo</title>
-	<meta name="description" content="A do it yourself name generator from online-generators.com" />
+	<title>Креативный продюсер</title>
+	<meta name="description" content="" />
 	
 	
 	
 	<!-- The Generator script. You can move the script to an external file for better overview -->
 	<script type="text/javascript">	
-	/*  Online Name Generators v.1.0 script is  made by Niels Gamborg webmaster at online-generator.com.  
-	*    The script is  free (as in "free speech" and also as in "free beer") in anyway. Use it after you own likings.
-	*    Peace and love. :)
-	*/	
+
 		function generator(){
 			// Add your own words to the wordlist. Be carefull to obey the showed syntax
 			
-			var wordlist1 = ["Cool","Masked","Bloody","Lame","Big","Stupid","Drunk","Rotten",
-							"Blue","Black","White","Red","Purple","Golden","Silver"];
+			var wordlist1 = ["Экологичный","Короткий","Премиальный","Бесплатный","Рэперский","Бесконечный","Образовательный","Сексуальный","Благотворительный","Мотивирующий","Феминистический","Комедийный","Культурный","Спортивный","Мистический","Офлайновый","Персонализированный","Кулинарный","Летний","Зимний","Музыкальный","Депрессивный","Танцевальный","Виртуальный","Ностальгический","Интерактивный","Гиперлокальный","Случайный","Модный"];
 			
-			var wordlist2 = ["Hamster","Moose","Lama","Duck","Bear","Eagle","Tiger",
-							"Rocket","Bullet","Knee","Foot","Hand"];
+			var wordlist2 = ["маска","история","чат-бот","денежные переводы","набор стикеров","слово в комментариях","игра в промопосте","видеозвонки","мемы","плейлист","видеоролик","чекбэк","товар","подкаст","трансляция","ситпостинг","аудиоролик","миниэпп","подписка на музыку","VK Taxi","паблик","QR","конкурс","исследование","фестиваль","тест","мерч","тематическая лента","тематическая лента"];
 
-			var wordlist3 = ["Hamster","Moose","Lama","Duck","Bear","Eagle","Tiger",
-							"Rocket","Bullet","Knee","Foot","Hand"]
+			var wordlist3 = ["с Cosmo","c Роскосмосом","c Яндексом","с Ситимобилом","с Автовазом","с Black Star","с Газгольдером","с Esquire","c Матч ТВ","с ТНТ","со Сбербанком","с Дюраном","c MDK","с МГУ","с Лентачом","с Молодцом","с Амедиатекой","с Авиасейлс","c PlayStation","c TJ","c Ведомостями","с Арзамасом","с Министерством образования","с Pornhub","со Стрелкой","с Медузой","с Перекрестком","c Гринпис","с Беспощадным пиарщиком"];
+
+			var wordlist4 = ["и Шурой","и Олегом Тиньковым","и Олегом Тиньковым","и Тёмой Лебедевым","и Джиганом","и Сидорковым","и Киркоровым","и Долгополовым","и Ивлеевой","и Дзюбой","и котиками","и Фэйсом","и сотрудниками ВК","и единорогом","и детьми","и бабушками","и моделями","и футболистами","и случайными людьми","и Дудём","и туристами","и геймерами","и веб-кам моделями","и животными","и супергероями","и бумерами","и малым бизнесом","и экспертами","и монстрами"];
+
+			var wordlist5 = ["на Новый год","на 8 марта","на 23 февраля","на 1 апреля","на 1 сентября","на 14 февраля","на день матери","на день святого Патрика","на 9 мая","на 1 мая","на чёрную пятницу","на премию Оскар","на первый день лета","на день защиты детей","на день защиты детей","на презентацию Apple","на Ивана Купалу","на КомиККон","на запуск редизайна","на ВК Фест","каждую пятницу","на день рождения пользователя","на выпускной","на день без автомобиля","на спортивный финал","на день донора","на Хэллоуин","на день десантника","на Евровидение"]
 			
 			// Random numbers are made 
 			var randomNumber1 = parseInt(Math.random() * wordlist1.length);
 			var randomNumber2 = parseInt(Math.random() * wordlist2.length);
 			var randomNumber3 = parseInt(Math.random() * wordlist3.length);
-			var name = wordlist1[randomNumber1] + " " + wordlist2[randomNumber2] + " " + wordlist3[randomNumber3];			
+			var randomNumber4 = parseInt(Math.random() * wordlist4.length);
+			var randomNumber5 = parseInt(Math.random() * wordlist5.length);
+			var name = wordlist1[randomNumber1] + " " + wordlist2[randomNumber2] + " " + wordlist3[randomNumber3] + " " + wordlist4[randomNumber4] + " " + wordlist5[randomNumber5];			
 			
 			//alert(name); //Remove first to slashes to alert the name
 			
@@ -50,12 +50,19 @@
 	
 	<!-- Stylesheet. Change styles here. You can move the stylesheet to a extern file for better overview -->
 	<style type="text/css">
-		body{font-family: arial, serif;}
-		#wrapper{border-left:1px solid #cccccc;border-right:1px solid #cccccc;margin:0 auto;padding: 0 20px;width: 700px}
-		#generator{background:#e9f3f6;border:1px solid #cccccc;margin:30px 0;font-size:28px;font-weight:bold;padding:50px 0 20px;text-align:center;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
-		#generator input{font-size:16px;font-weight:normal;margin-top: 30px}
+		body{background: #edeef0; font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Geneva,Noto Sans Armenian,Noto Sans Bengali,Noto Sans Cherokee,Noto Sans Devanagari,Noto Sans Ethiopic,Noto Sans Georgian,Noto Sans Hebrew,Noto Sans Kannada,Noto Sans Khmer,Noto Sans Lao,Noto Sans Osmanya,Noto Sans Tamil,Noto Sans Telugu,Noto Sans Thai,sans-serif;}
+		#wrapper{margin:0 auto;padding: 0 20px;width: 700px}
+		#gentop{margin-top: 48px; background: #fafbfc; height: 54px; border-radius: 4px 4px 0 0; outline: none; color: #000; padding: 0 30px; position: relative; box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8; line-height: 54px;
+    font-size: 16px;}
+		#generator{font-size: 19px;
+    line-height: 25px;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased; color: rgb(101, 101, 101);background:#fff; padding: 60px 60px 30px 60px; text-align:center; border-radius: 0 0 4px 4px; box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8; min-height: 160px}
+		#generator input{padding: 7px 16px 8px; margin: 48px 0 24px 0; font-size: 12.5px; display: inline-block; background-color: #5181b8; border: 0; border-radius: 4px; color: #fff; outline: none; cursor:pointer}
+		#generator input[type="button"]:hover {background-color: #5b88bd;}
 		#footer{font-size: 10px; color: #999; margin: 30px 0 0 0;}
 		#footer a{color:#999}
+}
 	</style>
 	
 	
@@ -64,39 +71,16 @@
 	<div id="wrapper">
 		
 		<!-- Change the text to your needs -->
-		<h1>Name generator script demo</h1>
-		<p>This is a do-it-yourself name generator. You just need to adjust the name lists and the text.
-		</p>
-		<p>		
-		And voila! You have got your own brand new and personal name generator.</p>
-		<p>Good luck with your project. :)</p>
-		
-		<!-- The generator result and button. Change text on the button by changing button value. Be carefull changing ID's in this part -->
+		<div id="gentop">
+		Нейросеть-генератор маркетинговых проектов ВКонтакте
+		</div>
 		<div id="generator" >
 			<div id="placeholder"></div>
-			<input type="button" value="Make name" onclick="generator()" />		
+			<input type="button" value="Сгенерировать" onclick="generator()"/>		
 		</div>
-		
-		<!--  Change the text to your needs -->
-		<p>Download the <a href="http://name-generators.com/download/name-generator-script.zip">name-generator-script.zip</a> 
-		or: Right click this page. Select view source.  Copy the source to a text-editor.
-		Save is at generator.html.</p>
-		
-		<p>To edit this page open it with a text editor with syntax highlighting. I'll recommend 
-		<a href="http://notepad-plus.sourceforge.net/">notepadd++</a> a free, fast and flexible text editor.</p>
-		
-		<p>Need help? You can ask questions to the script at my blog: 
-		<a href="http://www.name-generators.com/name-generators/name-generator-script.htm">Name generator script</a>. 
-		I'll try my best to help you.</p>
-		
-		<p>If you make a cool name generator, write me a line, and I might make a review of it for you. </p> 
-		
-		<p>If all this has been any help to you, please leave a link back to my site. :)</p>
-		
 		<!-- The footer. Place any contact info ect here.-->
 		<div id="footer">
-		<p>This generator is developed with help from the <a href="http://online-generator.com">online name generators</a>.
-		</p>
+		<center><p>Придумал <a href="https://vk.com/trskh">Женёк</a>, сделал <a href="https://vk.com/pogoloveloktem">Артём</a>.</p></center>
 		</div>
 	</div>
 </body>
